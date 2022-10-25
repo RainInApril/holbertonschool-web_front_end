@@ -147,12 +147,6 @@ a:active {
     margin: var(--section-tagline-margin);
 }
 
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-}
-
 ul.row {
     margin: 0;
     padding: 0;
@@ -187,6 +181,12 @@ ul.row {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 .footer {
