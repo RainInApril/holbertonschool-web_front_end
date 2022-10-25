@@ -154,9 +154,9 @@ ul.row {
 }
 
 .row::after {
-    content: none;
+    content: "";
     display: table;
-    float: none;
+    clear: both;
 }
 
 .col-1-3 {
